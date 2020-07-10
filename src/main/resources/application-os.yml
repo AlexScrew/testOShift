@@ -4,10 +4,10 @@ logging:
 spring:
   profiles: os
   datasource:
-    url: jdbc:mysql://mysql:3306/ost?useUnicode=yes&characterEncoding=UTF-8&useLegacyDatetimeCode=false&serverTimezone=Europe/Moscow
+    url: jdbc:mysql://mysql:3306/sampledb?useUnicode=yes&characterEncoding=UTF-8&useLegacyDatetimeCode=false&serverTimezone=Europe/Moscow
     driverClassName: com.mysql.cj.jdbc.Driver
-    username: test6
-    password: test6
+    username: test
+    password: 1234
 
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
