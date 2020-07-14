@@ -4,7 +4,7 @@ logging:
 spring:
   profiles: os
   datasource:
-    url: jdbc:mysql://mysql:3306/sampledb?useUnicode=yes&characterEncoding=UTF-8&useLegacyDatetimeCode=false&serverTimezone=Europe/Moscow
+    url: jdbc:mysql://mysql:3306/test?useUnicode=yes&characterEncoding=UTF-8&useLegacyDatetimeCode=false&serverTimezone=Europe/Moscow
     driverClassName: com.mysql.cj.jdbc.Driver
     username: test
     password: 1234
